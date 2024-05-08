@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="NO-conatiner">
+    <span>n:4</span>
+    <input style="width:200px;" id="n" type="range" min="1" max="100" value="4"/>
+    <div>
+        <span>Delay:</span>
+        <input class="delay-box" type="text" min="100" value="100"/>
+        <button class="set-btn">Set</button>
+        
+    </div>
+    <div>
+        <button class="start-btn">Start</button>
+        <button class="stop-btn">Stop</button>
+    </div>
+    
+</div>
+<div>
+    <canvas id="canvas" ></canvas>
+</div>
+<script src="AdyncLock.js"></script>
+    <script src="Nqueen.js"></script>
+    <script src="Board.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

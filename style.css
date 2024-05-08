@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+canvas{
+    background: gray;
+}
+.NO-conatiner{
+    display: flex;
+    flex-direction: column;
+    
+}
